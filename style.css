@@ -58,3 +58,24 @@ div > .pokemon-desc {
 .show {
   visibility: visible;
 }
+
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-form input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-form button {
+  border-style: none;
+  background-color: lightgrey;
+  padding: 7px;
+}
+
+.search-form label {
+  font-size: 25px;
+}
